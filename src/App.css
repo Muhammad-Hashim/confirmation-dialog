@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+.button{
+  color: white;
 }
 
 .App-logo {
@@ -14,7 +27,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +48,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Confirmation{
+ 
+  padding: 5px;
+  height: 150px;
+  width: 400px;
+  background-color: #61dafb;
+}
+
+.Confirmation:nth-child() P {
+  font-weight: 600;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
